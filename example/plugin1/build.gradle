@@ -1,0 +1,29 @@
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly project(':core')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.41"
+}
+
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'version': "${version}",
+        'pluginId': "${pluginId}",
+        'pluginClass': "${pluginClass}",
+        'pluginProvider': "${pluginProvider}"
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+task assemblePlugin(type: Copy) {
+    from fatJar
+    into pluginsDir
+}
+
+build.dependsOn assemblePlugin

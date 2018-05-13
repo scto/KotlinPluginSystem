@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="app_main" target="1.8" />
+      <module name="app_test" target="1.8" />
+      <module name="core_main" target="1.8" />
+      <module name="core_test" target="1.8" />
+      <module name="example_main" target="1.8" />
+      <module name="example_test" target="1.8" />
+      <module name="KotlinPluginFramework_main" target="1.8" />
+      <module name="KotlinPluginFramework_test" target="1.8" />
+      <module name="KotlinPluginSystem_main" target="1.8" />
+      <module name="KotlinPluginSystem_test" target="1.8" />
+      <module name="plugin1_main" target="1.8" />
+      <module name="plugin1_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/example" />
+            <option value="$PROJECT_DIR$/example/plugin1" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KotlinPluginSystem.iml" filepath="$PROJECT_DIR$/KotlinPluginSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinPluginSystem_main.iml" filepath="$PROJECT_DIR$/KotlinPluginSystem_main.iml" group="KotlinPluginSystem" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinPluginSystem_test.iml" filepath="$PROJECT_DIR$/KotlinPluginSystem_test.iml" group="KotlinPluginSystem" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app_main.iml" filepath="$PROJECT_DIR$/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app_test.iml" filepath="$PROJECT_DIR$/app/app_test.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_main.iml" filepath="$PROJECT_DIR$/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_test.iml" filepath="$PROJECT_DIR$/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" group="example" />
+      <module fileurl="file://$PROJECT_DIR$/example/example_main.iml" filepath="$PROJECT_DIR$/example/example_main.iml" group="example" />
+      <module fileurl="file://$PROJECT_DIR$/example/example_test.iml" filepath="$PROJECT_DIR$/example/example_test.iml" group="example" />
+      <module fileurl="file://$PROJECT_DIR$/example/plugin1/plugin1.iml" filepath="$PROJECT_DIR$/example/plugin1/plugin1.iml" group="example/plugin1" />
+      <module fileurl="file://$PROJECT_DIR$/example/plugin1/plugin1_main.iml" filepath="$PROJECT_DIR$/example/plugin1/plugin1_main.iml" group="example/plugin1" />
+      <module fileurl="file://$PROJECT_DIR$/example/plugin1/plugin1_test.iml" filepath="$PROJECT_DIR$/example/plugin1/plugin1_test.iml" group="example/plugin1" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.41/d0cfb3ef897c00449e5e696355db9506225fb507/kotlin-stdlib-jdk7-1.2.41.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.41/7fd88ed591a4faab7394f428ef613b85c132b0cd/kotlin-stdlib-jdk7-1.2.41-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.41">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.41/5e34ca185bbea7452d704ed3537a22314a809383/kotlin-stdlib-jdk8-1.2.41.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.41/c017e44d603d28abdc94e1debd11b6a83b5a5e89/kotlin-stdlib-jdk8-1.2.41-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.41">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/7e34f009642702250bccd9e5255866f408962a05/kotlin-stdlib-1.2.41.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/dc11619be6c45157a142d3753017544896da8e69/kotlin-stdlib-1.2.41-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.jetbrains:annotations:13.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>

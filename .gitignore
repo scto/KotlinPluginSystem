@@ -1,0 +1,13 @@
+build/
+gradle/
+app/build/
+app/out/
+core/build/
+core/out/
+example/build/
+example/plugin1/build/
+example/plugin1/out/
+
+
+gradlew
+gradlew.bat

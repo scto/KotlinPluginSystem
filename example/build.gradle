@@ -1,0 +1,11 @@
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':core')
+    compile project(":example:plugin1")
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.41"
+}
